@@ -64,7 +64,7 @@ const Navbar = () => {
                 <li key={index}>
                   <Link
                     to={item.link}
-                    className="text-gray-500 text-lg font-medium hover:text-indigo-600 ease-out duration-700"
+                    className="text-gray-500 text-lg font-medium hover:text-[#FFA800] ease-out duration-700"
                   >
                     {item.name}
                   </Link>
