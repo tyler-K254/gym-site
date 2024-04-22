@@ -35,9 +35,9 @@ const Navbar = () => {
           <div>
             <div className="flex items-center justify-between py-1 md:py-1 md:block">
               {/* Logo section */}
-              <Link className="text-3xl text-indigo-600 font-semibold tracking-[0.1rem] flex items-end gap-x-1 relative">
+              <Link className="text-3xl text-[#FFA800] font-semibold tracking-[0.1rem] flex items-end gap-x-1 relative">
                 G<span className="text-xl font-bold text-gray-300">Y</span>M
-                <Dumbbell className="w-5 h-4 text-indigo-600 -rotate-45 absolute top-0 left-[46%] translate-x-[-50%]" />
+                <Dumbbell className="w-5 h-4 text-[#FF6B00] -rotate-45 absolute top-0 left-[46%] translate-x-[-50%]" />
               </Link>
               <div className="md:hidden">
                 <button

@@ -6,7 +6,7 @@ const PrimaryBtn = ({ type, id, children, className }) => {
       <button
         type={type}
         id={id}
-        className={`text-base text-gray-200 bg-indigo-600 font-medium px-3 py-1.5 rounded gap-x-1 hover:bg-indigo-600/70 ease-out duration-500 ${className}`}
+        className={`text-base text-gray-200 bg-[#FF6B00] font-medium px-3 py-1.5 rounded gap-x-1 hover:bg-[#FFAB6E] ease-out duration-500 ${className}`}
       >
         {children}
       </button>

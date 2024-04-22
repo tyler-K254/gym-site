@@ -31,7 +31,7 @@ const Hero = () => {
         },
         {
           id: 3,
-          bgImg: "https://source.unsplash.com/random/?yoga",
+          bgImg: "https://img.freepik.com/free-photo/bodybuilding-concept-with-guy-lifting-barbell_23-2147675172.jpg?t=st=1713750705~exp=1713754305~hmac=b13a9097f162ae193f0c9bc374e1b609a08493484f34c2d00cb85ce06edbf061&w=996",
           slogan: "Grow Your Body",
           title: "Strength",
           desc: "Make your body stronger with our high quality products.",
@@ -66,16 +66,16 @@ const Hero = () => {
             
             }}
             >
-                <div className="w-full h-full bg-black/80 absolute top-0 left-0 -z-10"></div>
+                <div className="w-full h-full bg-[#550000]/75 absolute top-0 left-0 -z-10"></div>
                 {/*  */}
                 <div className="w-full h-full flex items-center justify-center flex-col z-10
                 lg:px-24 md:px-16 sm:px-6 px-4">
-                    <h5 className="lg:text-5xl md:text-4xl sm:text-3xl text-indigo-400 font-semibold mb-2 uppercase">
-                        Keep your body
+                    <h5 className="lg:text-5xl md:text-4xl sm:text-3xl text-[#FFAB6E] font-semibold mb-2 uppercase">
+                        {data.slogan}
                     </h5>
-                    <h1 className='lg:text-10xl md:text-9xl sm:text-8xl text-7xl font-bold text-white mb-4 uppercase'>Burning</h1>
-                    <p className="lg:text-lg md:text-base sm:text-base text-gray-500 font-medium mb-6 text-center">
-                    Get ready to burn off some serious fat with our workout programs
+                    <h1 className='lg:text-10xl md:text-9xl sm:text-8xl text-7xl font-bold text-white mb-4 uppercase'>{data.title}</h1>
+                    <p className="lg:text-lg md:text-base sm:text-base text-[#D8D8D8] font-medium mb-6 text-center">
+                    {data.desc}
                     </p>
                     <PrimaryBtn className="lg:w-[15%] md:w-[35%] sm:w-[75%] w-[80%] h-14 mt-5 text-xl font-semibold rounded-full">Get Started</PrimaryBtn>
                 </div>
@@ -85,8 +85,41 @@ const Hero = () => {
 
                 
       </Swiper>
+
+      {/* banner type card */}
+      <div className="w-full h-auto flex items-center 
+      lg:justify-between md:justify-between sm:justfy-center justify center 
+      lg:gap-7 md-gap-7 sm:gap-5 gap-5 lg:px-24 md:px-16 sm:px-6 px-6 mt-6 flex-wrap">
+        <div className='flex items-center justif-center flex-col lg:w-fit md:w-[48%] sm:w-[48%] 
+        w-full lg:py-6 md:py-7 sm:py-8 py-9 px-10 bg-black/10 
+        hover:bg-black/30 rounded-md ease-out duration-700 cursor pointer'>
+          <h5 className="text-4xl text-[#FF6B00] font-semibold mb-2 uppercase">
+            150+
+          </h5>
+          <p className="tex-lg text-[#d6b39b] font-medium">Members</p>
+        </div>
+        <div className='flex items-center justif-center flex-col lg:w-fit md:w-[48%] sm:w-[48%] 
+        w-full lg:py-6 md:py-7 sm:py-8 py-9 px-10 bg-black/10 
+        hover:bg-black/30 rounded-md ease-out duration-700 cursor pointer'>
+          <h5 className="text-4xl text-[#FF6B00] font-semibold mb-2 uppercase">
+            20+
+          </h5>
+          <p className="tex-lg text-[#d6b39b] font-medium">Professional Trainers</p>
+        </div>
+        <div className='flex items-center justif-center flex-col lg:w-fit md:w-[48%] sm:w-[48%] 
+        w-full lg:py-6 md:py-7 sm:py-8 py-9 px-10 bg-black/10 
+        hover:bg-black/30 rounded-md ease-out duration-700 cursor pointer'>
+          <h5 className="text-4xl text-[#FF6B00] font-semibold mb-2 uppercase">
+            10+
+          </h5>
+          <p className="tex-lg text-[#d6b39b] font-medium">Years of Experience</p>
+        </div>
+        
+      </div>
       
     </div>
+
+    
     </>
   )
 }
