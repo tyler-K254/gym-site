@@ -20,7 +20,7 @@ const Hero = () => {
           bgImg: "'https://img.freepik.com/free-photo/fitness-man-with-barbell_144627-12958.jpg?t=st=1711514620~exp=1711518220~hmac=49c1e62e9bb7f537ad2b7da10320db587c4eb12ee37da810a040c7ab5a2be2d3&w=1380'",
           slogan: "Keep your body",
           title: "Burning",
-          desc: "Get ready to burn off some serious fat with our high quality products.",
+          desc: "Test yourself to push and surpass your limits.",
         },
         {
           id: 2,
@@ -31,10 +31,10 @@ const Hero = () => {
         },
         {
           id: 3,
-          bgImg: "https://img.freepik.com/free-photo/bodybuilding-concept-with-guy-lifting-barbell_23-2147675172.jpg?t=st=1713750705~exp=1713754305~hmac=b13a9097f162ae193f0c9bc374e1b609a08493484f34c2d00cb85ce06edbf061&w=996",
+          bgImg: "./bodybuilding-concept-with-guy-lifting-barbell_23-2147675172.jpg",
           slogan: "Grow Your Body",
           title: "Strength",
-          desc: "Make your body stronger with our high quality products.",
+          desc: "Make your body stronger with our workout programs.",
         },
       ];
   return (
@@ -59,11 +59,10 @@ const Hero = () => {
                 key={data.id}
             className='w-full h-[70vh] relative ' 
             style={{
-                backgroundImage: `url(${data.bgImg})`,
+            backgroundImage: `url(${data.bgImg})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat:'no-repeat', 
-            
             }}
             >
                 <div className="w-full h-full bg-[#550000]/75 absolute top-0 left-0 -z-10"></div>
