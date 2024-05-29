@@ -8,7 +8,7 @@ const Banner = () => {
       <div className="w-full h-[73vh] flex items-center justify-center flex-col relative z-10 lg:py-16
       md:py-14 sm:py-12 py-10 lg:px-24 md:px-16 sm:px-6 px-4"
       style={{
-        backgroundImage: "url('/Fat crying 1920 b.png')",
+        backgroundImage: "url('/Fat crying 1920 glow.png')",
         // bbackgroundSize: "20%",
         backgroundSize: "100%",
         backgroundPosition: "center",
@@ -24,8 +24,8 @@ const Banner = () => {
           Feel the burn today, achieve the greatness tomorrow
         </p> */}
         <PrimaryBtn className=" lg:ml-[55vh] md:ml-[40vh] sm:ml-[30vh] lg:mt-[50vh] md:mt-[35vh] sm:mt-[25vh] mt-[14vh]
-         lg:px-20 md:px-16 sm:px-11 lg:py-3 md:py-3 sm:py-2 py-0.5 lg:text-[3vh] md:text-[2vh] sm:text-[12px] text-[10px] uppercase">
-          Become a Member
+         lg:px-20 md:px-16 sm:px-11 lg:py-3 md:py-3 sm:py-2 py-0.5 lg:text-[2.7vh] md:text-[1.7vh] sm:text-[10px] text-[9.5px] uppercase">
+          Call 0113724182 to join
           </PrimaryBtn>
         </div>
     </div>

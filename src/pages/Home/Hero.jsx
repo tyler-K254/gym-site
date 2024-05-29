@@ -1,6 +1,7 @@
 import React from 'react'
 //import Swiper from React Components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Link } from 'react-scroll'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -73,10 +74,12 @@ const Hero = () => {
                         {data.slogan}
                     </h5>
                     <h1 className='lg:text-10xl md:text-9xl sm:text-8xl text-7xl font-bold text-white mb-4 uppercase'>{data.title}</h1>
-                    <p className="lg:text-lg md:text-base sm:text-base text-[#D8D8D8] font-medium mb-6 text-center">
+                    <p className="lg:text-3xl md:text-base sm:text-base text-[#D8D8D8] font-medium mb-6 text-center">
                     {data.desc}
                     </p>
-                    <PrimaryBtn className="lg:w-[15%] md:w-[35%] sm:w-[75%] w-[80%] h-14 mt-5 text-xl font-semibold rounded-full">Get Started</PrimaryBtn>
+                    {/* <Link to='bannerSection' duration={500} className='w-fit flex  hover:bg-indigo-600/70 items-center '>
+                    <PrimaryBtn className="lg:w-[50%] md:w-[30%] sm:w-[35%] w-[60%] h-14 mt-5 text-xl font-semibold rounded-xl flex items-center">Get Started</PrimaryBtn>
+                    </Link> */}
                 </div>
                 </SwiperSlide>
         ))}

@@ -5,6 +5,13 @@ import About from "./About";
 import BMI from "./BMI";
 import Services from "./Services";
 import Banner from "./Banner";
+import Trainers from "./Trainers";
+import PricingPlan from "./PricingPlan";
+import Contact from "./Contact"
+import { Element } from 'react-scroll'
+import Footer from "./Footer";
+
+
 
 const Home = () => {
   return (
@@ -15,7 +22,13 @@ const Home = () => {
         <About />
         <BMI />
         <Services />
+        <Element name="bannerSection">
         <Banner />
+        </Element>
+        {/* <Trainers /> */}
+       <PricingPlan />
+       <Contact />
+       <Footer />
       </div>
       {/* justify-end */}
       <div className="flex ">

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Dumbbell, Menu, X } from "lucide-react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import PrimaryBtn from "../Button/PrimaryBtn";
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -35,9 +36,10 @@ const Navbar = () => {
           <div>
             <div className="flex items-center justify-between py-1 md:py-1 md:block">
               {/* Logo section */}
-              <Link className="text-3xl text-[#FFA800] font-semibold tracking-[0.1rem] flex items-end gap-x-1 relative">
-                G<span className="text-xl font-bold text-gray-300">Y</span>M
-                <Dumbbell className="w-5 h-4 text-[#FF6B00] -rotate-45 absolute top-0 left-[46%] translate-x-[-50%]" />
+              <Link className="text-3xl text-[#FFA800] font-semibold tracking-[0.1rem] flex items-end gap-x-0 relative">
+                V<span className="-xl font-bold text-gray-300">F</span>
+                <img src="Logo-03.png" alt="logo" className="w-[50px] h-4 text-[#FF6B00] absolute top-[-10px] left-[46%] translate-x-[-50%]" />
+                {/* <Dumbbell className="w-[100px] h-4 text-[#FF6B00] -rotate-45 absolute top-[-8px] left-[46%] translate-x-[-50%]" /> */}
               </Link>
               <div className="md:hidden">
                 <button
@@ -70,7 +72,9 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
-              <PrimaryBtn>Become A Member</PrimaryBtn>
+              <Link to='bannerSection' smooth={true} duration={500} className='w-full'>
+              <PrimaryBtn>Call Us</PrimaryBtn>
+              </Link>
             </ul>
           </div>
         </div>
