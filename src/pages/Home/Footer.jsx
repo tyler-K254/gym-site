@@ -16,7 +16,7 @@ const Footer = () => {
     <>
       <div className="bg-[#111111]">
         <div
-          className="w-full h-auto flex items-center justify-center bg-black/30 flex-col lg:py-16
+          className="w-full h-auto flex items-center justify-center bg-black/30 flex-col lg:py-8
           md:py-14 sm:py-12 py-10 lg:px-24 md:px-16 sm:px-6 px-4"
         >
           <div
@@ -29,12 +29,13 @@ const Footer = () => {
              justify-center"
             >
               <Link className="w-fit h-auto text-3xl text-[#FFA800] font-semibold tracking-[0.1rem] flex items-end gap-x-0 relative">
-                V<span className="-xl font-bold text-gray-300">F</span>
+              <img src="Logo with text-01.png" alt="logo" className="w-[90px] pb-[5vh]" />
+                {/* V<span className="-xl font-bold text-gray-300">F</span>
                 <img
                   src="Logo-03.png"
                   alt="logo"
                   className="w-[50px] h-4 text-[#FF6B00] absolute top-[-10px] left-[46%] translate-x-[-50%]"
-                />
+                /> */}
                 {/* <Dumbbell className="w-[100px] h-4 text-[#FF6B00] -rotate-45 absolute top-[-8px] left-[46%] translate-x-[-50%]" /> */}
               </Link>
               <p
