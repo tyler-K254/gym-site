@@ -25,7 +25,7 @@ const Banner = () => {
         </p> */}
         <PrimaryBtn className=" lg:ml-[55vh] md:ml-[40vh] sm:ml-[30vh] lg:mt-[50vh] md:mt-[35vh] sm:mt-[25vh] mt-[14vh]
          lg:px-20 md:px-16 sm:px-11 lg:py-3 md:py-3 sm:py-2 py-0.5 lg:text-[2.7vh] md:text-[1.7vh] sm:text-[10px] text-[9.5px] uppercase">
-          Call 0113724182 to join
+          Call 0712347812 to join
           </PrimaryBtn>
         </div>
     </div>
