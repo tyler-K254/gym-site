@@ -13,19 +13,19 @@ const Navbar = () => {
     },
     {
       name: "About",
-      link: "/about",
+      link: "aboutSection",
     },
     {
       name: "Services",
-      link: "/services",
+      link: "servicesSection",
     },
     {
       name: "Plan",
-      link: "/plan",
+      link: "pricingSection",
     },
     {
       name: "Contact",
-      link: "/contact",
+      link: "contactSection",
     },
   ];
   return (
@@ -64,8 +64,7 @@ const Navbar = () => {
             <ul className="list-none lg:flex md:flex sm:block block items-center gap-x-5 gap-y-16">
               {navItems.map((item, index) => (
                 <li key={index}>
-                  <Link
-                    to={item.link}
+                  <Link to={item.link} smooth={true} duration={500} 
                     className="text-gray-500 text-lg font-medium hover:text-[#FFA800] ease-out duration-700"
                   >
                     {item.name}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Dumbbell, Menu, X } from "lucide-react";
-import SecondaryBtn from "../../components/Button/SecondaryBtn"
+import SecondaryBtn from "../../components/Button/SecondaryBtn";
+import { Link } from 'react-scroll'
 
 const About = () => {
   return (
@@ -30,7 +31,9 @@ const About = () => {
             including multiple squat racks, an array of bench presses, various barbells, and a comprehensive selection of dumbbells in all weights. Whether you're a 
             beginner or a seasoned athlete, our facilities are set up to support your strength training journey.
         </p>
-        <SecondaryBtn className='lg:w-auto md:w-auto sm:w-full px-7 py-2 text-base font-medium uppercase justify-centerZz'>Become a memeber</SecondaryBtn>
+        <Link to="bannerSection" smooth={true} duration={500} >
+        <SecondaryBtn className='lg:w-auto md:w-auto sm:w-full px-7 py-2 text-base font-medium uppercase justify-center'>Become a memeber</SecondaryBtn>
+        </Link>
       </div>
       {/* Orange glow */}
       <div class="w-32 h-32  rounded-full bg-[#FF6B00] blur-[45px] absolute right-[35px] bottom-1 -z-1" ></div>

@@ -17,17 +17,27 @@ const Home = () => {
   return (
     <>
       <div className="w-full h-auto ">
+      <Element name="heroSection">
         <Hero />
+        </Element>
         <Quote />
+        <Element name="aboutSection">
         <About />
+        </Element>
         <BMI />
+        <Element name="servicesSection">
         <Services />
+        </Element>
         <Element name="bannerSection">
         <Banner />
         </Element>
         {/* <Trainers /> */}
+        <Element name="pricingSection">
        <PricingPlan />
+       </Element>
+       <Element name="contactSection">
        <Contact />
+       </Element>
        <Footer />
       </div>
       {/* justify-end */}
