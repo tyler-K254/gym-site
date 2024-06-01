@@ -96,7 +96,7 @@ const Hero = () => {
         w-full lg:py-6 md:py-7 sm:py-8 py-9 px-10 bg-black/10 
         hover:bg-black/30 rounded-md ease-out duration-700 cursor pointer'>
           <h5 className="text-4xl text-[#FF6B00] font-semibold mb-2 uppercase">
-            150+
+            100+
           </h5>
           <p className="tex-lg text-[#d6b39b] font-medium">Members</p>
         </div>
@@ -104,17 +104,17 @@ const Hero = () => {
         w-full lg:py-6 md:py-7 sm:py-8 py-9 px-10 bg-black/10 
         hover:bg-black/30 rounded-md ease-out duration-700 cursor pointer'>
           <h5 className="text-4xl text-[#FF6B00] font-semibold mb-2 uppercase">
-            20+
+           30%
           </h5>
-          <p className="tex-lg text-[#d6b39b] font-medium">Professional Trainers</p>
+          <p className="tex-lg text-[#d6b39b] font-medium">Year-on-Year Client Growth </p>
         </div>
         <div className='flex items-center justif-center flex-col lg:w-fit md:w-[48%] sm:w-[48%] 
         w-full lg:py-6 md:py-7 sm:py-8 py-9 px-10 bg-black/10 
         hover:bg-black/30 rounded-md ease-out duration-700 cursor pointer'>
           <h5 className="text-4xl text-[#FF6B00] font-semibold mb-2 uppercase">
-            10+
+           5000+
           </h5>
-          <p className="tex-lg text-[#d6b39b] font-medium">Years of Experience</p>
+          <p className="tex-lg text-[#d6b39b] font-medium">Hours of Training delivered</p>
         </div>
         
       </div>
