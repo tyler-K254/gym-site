@@ -19,15 +19,15 @@ const About = () => {
         </h6>
         <h1 className='lg:text-3xl md:text-3xl sm:text-2xl text-lg font-semibold
         text-gray-200 mb-4 leading-normal lg:pe-5 md:pe-4 sm:pe-1 pe-0'>
-            At Veterans Fitness, we believe in elevating your limits 
+            At Versatile Fitness, we believe in elevating your limits 
              every time you step through our doors.
         </h1>
         <p className="lg:text-base md:text-base sm:text-sm text-sm text-[#a7a7a7] font-medium mb-4">
-            Veterans Fitness provides a workout environment that is not just a gym but a vibrant, energetic community hub.
-            Veterans Fitness offers a state-of-the-art facility equipped with everything you need to achieve your fitness goals.
+            Versatile Fitness provides a workout environment that is not just a gym but a vibrant, energetic community hub.
+            Versatile Fitness offers a state-of-the-art facility equipped with everything you need to achieve your fitness goals.
             <br />
             <br />
-            Veterans Fitness is designed to cater to fitness enthusiasts of all levels. Our expansive gym floor features a wide range of weight training equipment,
+            Versatile Fitness is designed to cater to fitness enthusiasts of all levels. Our expansive gym floor features a wide range of weight training equipment,
             including multiple squat racks, an array of bench presses, various barbells, and a comprehensive selection of dumbbells in all weights. Whether you're a 
             beginner or a seasoned athlete, our facilities are set up to support your strength training journey.
         </p>
