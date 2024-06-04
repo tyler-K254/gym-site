@@ -64,7 +64,7 @@ const Footer = () => {
                 >
                   <Phone className="w-5 h-5 text-[#FF6B00]" />
                   <p className="text-base text-[#FF6B00]">
-                  0113724182
+                  0712347812
                   </p>
                 </div>
                 <div className="w-full h-[1.5px] flex item-center lg:bg-gray-900 md:bg-gray-900
