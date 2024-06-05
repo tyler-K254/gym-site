@@ -54,7 +54,7 @@ const Footer = () => {
                 >
                   <MapPin className="w-5 h-5 text-[#FF6B00]" />
                   <p className="text-base text-[#FF6B00]">
-                    CITY VIEW HOUSE NGARA
+                    CENTER PRIDE HOUSE NGARA
                   </p>
                 </div>
                 <div
