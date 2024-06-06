@@ -95,9 +95,9 @@ const Services = () => {
                           <p className='text-base text-gray-400 font-normal text-center mb-4'>
                             {data.desc}
                           </p>
-                          <TertiaryLink link={data.link}>Read More
+                          {/* <TertiaryLink link={data.link}>Read More
                           <MoveRight className='w-4 h-4 ' />
-                          </TertiaryLink>
+                          </TertiaryLink> */}
                       </div>
               </div>
               )
