@@ -17,7 +17,7 @@ const PricingPlan = () => {
           </h6>
           <div className='w-full h-auto flex justify-center gap-x-5 gap-y-8 flex-wrap'>
             {/* Basic Plan */}
-            <div className='text-center lg:w-[58%] md:w-full sm:w-full w-full h-auto px-10 lg:py-10
+            <div className='text-center lg:w-[63%] md:w-full sm:w-full w-full h-auto px-10 lg:py-10
               md:py-10 sm:py-10 py-10 bg-black/10 rounded-lg border-[2.5px] border-[#FF6B00]/60
               hover:border-[#550000]/70 hover:bg-gray-600/10 ease-out duration-700
               cursor-pointer'>
@@ -65,7 +65,7 @@ const PricingPlan = () => {
                 <div className='w-full h-auto flex items-start gap-x-2'>
                   <CheckSquare className='w-5 h-5 text-[#FF6B00]'/>
                   <p className='text-gray-400 lg:text-base md:text-base sm:text-base text-sm'>
-                  <span className='text-[#FF6B00]'>Locker and shower access:</span> Take advantage of our lockers and heated showers.
+                  <span className='text-[#FF6B00]'>Locker and shower access:</span> Take advantage of our secure lockers and heated showers.
                   </p>
                 </div>
                 <Link to='bannerSection' smooth={true} duration={500} className='w-full'>
