@@ -40,7 +40,7 @@ const About = () => {
       </div>
       </div>
       {/* Orange glow */}
-      <div class="w-32 h-32  rounded-full bg-[#FF6B00] blur-[45px] absolute right-[35px] bottom-1 -z-1" ></div>
+      {/* <div class="w-32 h-32  rounded-full bg-[#FF6B00] blur-[45px] absolute right-[35px] bottom-1 -z-1" ></div> */}
      
       </div>
     
