@@ -29,7 +29,7 @@ const Footer = () => {
              justify-center"
             >
               <Link className="w-fit h-auto text-3xl text-[#FFA800] font-semibold tracking-[0.1rem] flex items-end gap-x-0 relative">
-              <img src="Versatile Logo with text-01.png" alt="logo" className="w-[90px] pb-[5vh]" />
+              <img src="V Logo with text-01.png" alt="logo" className="w-[90px] pb-[5vh]" />
                 {/* V<span className="-xl font-bold text-gray-300">F</span>
                 <img
                   src="Logo-03.png"
@@ -42,7 +42,7 @@ const Footer = () => {
                 className="text-base text-gray-500 font-normal mb-4 lg:text-start
               md:text-start sm:text-center text-center"
               >
-                Versatile Fitness is a fully-equipped gym offering top-notch
+                V-Fitness is a fully-equipped gym offering top-notch
                 weight lifting and cardio equipment. We have professional
                 trainers and a variety of fitness dance classes,
               </p>
@@ -72,8 +72,8 @@ const Footer = () => {
             <div className="w-full h-auto flex items-center lg:justify-between
             md:justify-between sm:justify-center justify-center absolute -bottom-14  flex-wrap-reverse gap-y-4">
                 <p className="text-sm text-gray-400 front-normal lg:bg-gray-900 md:g-gray
-                sm:bg-transparent bg-transparent py-1 px-4 rounded-md">
-                    @{currentDate} Versatile Fitness - All rights reserved
+                sm:bg-transparent bg-transparent  py-3 px-4 rounded-md">
+                    @{currentDate} V-Fitness - All rights reserved
                 </p>
             </div>
         </div>
@@ -84,7 +84,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="lg:w-[30%] md:w[40%] sm:w-[40%] w-full h-auto flex
-                items-center flex-col justify-center">
+                items-center flex-col justify-center mt-4">
                     <h2 className="text-lg text-gray-200 font-medium mb-4">
                         Services
                     </h2>
@@ -111,7 +111,7 @@ const Footer = () => {
                 </div>
                 {/* Quick Links */}
                 <div className="lg:w-[30%] md:w[40%] sm:w-[40%] w-full h-auto flex
-                items-center flex-col justify-center">
+                items-center flex-col justify-center mt-4">
                     <h2 className="text-lg text-gray-200 font-medium mb-4">
                         Quick Links
                     </h2>

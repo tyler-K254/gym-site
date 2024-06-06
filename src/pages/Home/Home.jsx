@@ -5,6 +5,7 @@ import About from "./About";
 import BMI from "./BMI";
 import Services from "./Services";
 import Banner from "./Banner";
+import Pricing2 from "./Pricing2"
 import Trainers from "./Trainers";
 import PricingPlan from "./PricingPlan";
 import Contact from "./Contact"
@@ -33,7 +34,8 @@ const Home = () => {
         </Element>
         {/* <Trainers /> */}
         <Element name="pricingSection">
-       <PricingPlan />
+        <Pricing2 />
+       {/* <PricingPlan /> */}
        </Element>
        <Element name="contactSection">
        <Contact />
