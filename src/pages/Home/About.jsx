@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <div className="w-full h-auto flex items-center justify-between lg:flex-nowrap md:flex-nowrap sm:flex-wrap flex-wrap bg-[#202020] relative">
-        <img src="./gyme website model unreflected bigger.png" alt="gym-model" className="  w-[550px] " />
+        <img src="./gyme website model unreflected bigger .png" alt="gym-model" className="  w-[550px] " />
         <div className='lg:w-[50%] md:w-[50%] sm:w-full w-full h-auto lg:text-start
       md:text-start sm:text-start text-center lg:mr-[60px] md:mr-[60px] sm:mr-[10px] mr-[10px]
       lg:px-[0] md:px-[0] sm:px-[10px] px-[20px]'>
